@@ -2,12 +2,6 @@
 
 Este proyecto implementa un pipeline de datos completo para analizar estadísticas de la Premier League hasta el ultimo performance en el 2025.
 
-**Flujo de trabajo:**
-1.  **Extracción (ETL)**: Scripts en Python (`driver.py`) utilizan Selenium para scrapear datos históricos (temporadas, tablas de posiciones y estadísticas detalladas) desde ESPN.
-2.  **Limpieza y Transformación**: Procesamiento de datos crudos (`data.py`) con Pandas para estandarizar formatos y calcular métricas derivadas.
-3.  **Almacenamiento**: Carga de datos procesados (`setup.py`) en una base de datos relacional PostgreSQL diseñada con un esquema estrella/copo de nieve optimizado.
-4.  **Visualización**: Dashboard interactivo en Power BI (`dashboard.pbix`) para exploración de datos.
-
 ## Setup de la extracción y base de datos
 
 - selenium para la extracción de datos
