@@ -1,0 +1,6 @@
+.env
+# en caso de que existan
+seasons.csv
+season_teams.csv
+stat_registers.csv
+teams.csv
