@@ -1,6 +1,6 @@
-# Premier League Analysis
+# Analítica de la Premier League
 
-Este proyecto implementa un pipeline de datos completo para analizar estadísticas de la Premier League hasta el ultimo performance en el 2025.
+Este proyecto implementa un pipeline de datos completo para analizar estadísticas de los resultados Premier League hasta el ultimo performance en el 2025.
 
 ## Setup de la extracción y base de datos
 
